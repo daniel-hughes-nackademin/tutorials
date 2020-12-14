@@ -2,7 +2,7 @@ package com.baeldung.spring.cloud.eureka.client;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 
-public interface GreetingController {
+public interface IGreetingController {
     @RequestMapping("/greeting")
     String greeting();
 }
